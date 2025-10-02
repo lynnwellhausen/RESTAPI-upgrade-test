@@ -9,6 +9,16 @@
     sticky={null}
     type="main"
   >
-    <Button id="button1" text="Run Rest API test" />
+    <Button id="button1" text="Run Rest API test">
+      <Event
+        event="click"
+        method="trigger"
+        params={{ ordered: [] }}
+        pluginId="query1"
+        type="datasource"
+        waitMs="0"
+        waitType="debounce"
+      />
+    </Button>
   </Frame>
 </App>
