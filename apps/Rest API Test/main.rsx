@@ -9,6 +9,39 @@
     sticky={null}
     type="main"
   >
-    <Button id="button1" text="Run 311428" />
+    <Button id="button1" text="3.114.28">
+      <Event
+        event="click"
+        method="trigger"
+        params={{ ordered: [] }}
+        pluginId="query1"
+        type="datasource"
+        waitMs="0"
+        waitType="debounce"
+      />
+    </Button>
+    <Button id="button2" text="3.148.32">
+      <Event
+        event="click"
+        method="trigger"
+        params={{
+          ordered: [
+            {
+              options: {
+                object: {
+                  onSuccess: null,
+                  onFailure: null,
+                  additionalScope: null,
+                },
+              },
+            },
+          ],
+        }}
+        pluginId="query1"
+        type="datasource"
+        waitMs="0"
+        waitType="debounce"
+      />
+    </Button>
   </Frame>
 </App>
