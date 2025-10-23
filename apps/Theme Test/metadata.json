@@ -3,7 +3,9 @@
   "version": "43.0.9",
   "pageUuid": "41e6eb22-b03b-11f0-8fa8-ab27b40d0fc7",
   "appTemplate": {
+    "appThemeId": 1,
     "rootScreen": "page1",
+    "appThemeName": "c232fa purple",
     "version": "3.253.6",
     "experimentalDataTabEnabled": true
   }
