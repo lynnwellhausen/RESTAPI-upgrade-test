@@ -1,0 +1,8 @@
+# Local env files / secrets
+.env
+*.env
+docker.env
+retooldb.env
+
+# OS / editor
+.DS_Store
